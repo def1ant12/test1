@@ -19,7 +19,8 @@ namespace TestProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form2 invoice = new Form2();
+            invoice.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
