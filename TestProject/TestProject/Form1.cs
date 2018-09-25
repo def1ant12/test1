@@ -31,7 +31,8 @@ namespace TestProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Form4 jason = new Form4();
+            jason.ShowDialog();
         }
     }
 }
