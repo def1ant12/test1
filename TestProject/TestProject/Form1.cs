@@ -25,7 +25,8 @@ namespace TestProject
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Form3 jack = new Form3();
+            jack.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
